@@ -1,0 +1,353 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2972915200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitions.beforerun()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "1 user should be able to login with valid credentials",
+        "description": "",
+        "id": "techfios-other-login-functionality-validation;1-user-should-be-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 19894588000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitions.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 98924300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on techfios login_page",
+            "match": {
+              "location": "StepsDefinitions.User_is_on_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151227800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "StepsDefinitions.User_enters_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105936000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "StepsDefinitions.User_enters_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 824322000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on \"signin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signin",
+                  "offset": 16
+                }
+              ],
+              "location": "StepsDefinitions.User_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12130100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "StepsDefinitions.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 116441500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on \"Bank Cash\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bank Cash",
+                  "offset": 16
+                }
+              ],
+              "location": "StepsDefinitions.User_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 636630000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on \"new account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "new account",
+                  "offset": 16
+                }
+              ],
+              "location": "StepsDefinitions.User_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10256300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should land on account page",
+            "match": {
+              "location": "StepsDefinitions.User_should_land_on_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133594500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters AccountTitle as \"Myaccount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Myaccount",
+                  "offset": 29
+                }
+              ],
+              "location": "StepsDefinitions.User_enters_AccountTitle_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122664800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters Descriptions as \"ownaccount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ownaccount",
+                  "offset": 29
+                }
+              ],
+              "location": "StepsDefinitions.User_enters_Descriptions_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143970600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters InitialBalance as \"99999999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "99999999",
+                  "offset": 31
+                }
+              ],
+              "location": "StepsDefinitions.User_enters_InitialBalance_as(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137838400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters AccountNumber as \"1232321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1232321",
+                  "offset": 30
+                }
+              ],
+              "location": "StepsDefinitions.User_enters_AccountNumber_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155247800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters ContactPerson as \"texas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "texas",
+                  "offset": 30
+                }
+              ],
+              "location": "StepsDefinitions.User_enters_ContactPerson_as(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137341200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters Phones as \"212121233\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "212121233",
+                  "offset": 23
+                }
+              ],
+              "location": "StepsDefinitions.User_enters_Phones_as(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168964500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters InternetBankingURL as \"https://www.homework.com/?advn\u003d4059521906490434\u0026vjk\u003df84635a0db3c54ea\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.homework.com/?advn\u003d4059521906490434\u0026vjk\u003df84635a0db3c54ea",
+                  "offset": 35
+                }
+              ],
+              "location": "StepsDefinitions.User_enters_InternetBankingURL_as(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 465450800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on \"submit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "submit",
+                  "offset": 16
+                }
+              ],
+              "location": "StepsDefinitions.User_clicks_on(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FirstScenario"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios other login functionality validation",
+    "description": "",
+    "id": "techfios-other-login-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/loginfeature.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FirstScenario"
+      }
+    ]
+  }
+]
